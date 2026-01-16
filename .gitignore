@@ -1,0 +1,50 @@
+# Virtual Environments
+Backend/my-venv/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Database Files
+Backend/database.db
+Backend/*.sqlite
+Backend/*.sqlite3
+
+# Flask Instance Folder
+Backend/instance/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Dependencies & Logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Coverage & Build
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# Node (if using frontend tools)
+Frontend/node_modules/
+Frontend/*.log
