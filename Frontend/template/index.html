@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TaskMate</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <h2>TaskMate</h2>
+    <nav>
+        <a href="index.html" class="active">Tasks</a>
+        <a href="about.html">About</a>
+    </nav>
+</header>
+
+<main class="container">
+    <h1>My Tasks</h1>
+
+    <!-- FORM: stays separate -->
+    <div class="add-task">
+        <input id="taskInput" placeholder="Enter a new task">
+        <button onclick="addTask()">Add</button>
+    </div>
+
+    <!-- TABS: also separate -->
+    <div class="tabs">
+        <button onclick="loadTasks('all')">All</button>
+        <button onclick="loadTasks('pending')">Pending</button>
+        <button onclick="loadTasks('completed')">Completed</button>
+    </div>
+
+    <!-- TASK CARDS: each task gets its own card -->
+    <div id="taskContainer" class="task-container"></div>
+</main>
+
+<script src="../static/script.js"></script>
+</body>
+</html>
