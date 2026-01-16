@@ -10,10 +10,6 @@ __pycache__/
 *.so
 .Python
 
-# Database Files
-Backend/database.db
-Backend/*.sqlite
-Backend/*.sqlite3
 
 # Flask Instance Folder
 Backend/instance/
